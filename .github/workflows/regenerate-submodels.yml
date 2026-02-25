@@ -2,6 +2,8 @@ name: Regenerate published submodels
 
 on:
   push:
+    branches:
+      - master
     paths:
       - "aas-sm-to-py/**"
       - ".github/workflows/regenerate-submodels.yml"
